@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Doe | Frontend Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Jane Doe is a frontend developer who builds accessible, responsive web experiences with semantic HTML5 and modern CSS3."
+    />
+    <meta
+      name="keywords"
+      content="personal portfolio, frontend developer, accessible website, responsive design, semantic HTML, WCAG 2.1"
+    />
+    <meta name="author" content="Jane Doe" />
+    <meta property="og:title" content="Jane Doe | Frontend Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="A modern portfolio built for accessibility, performance, and responsive design."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="images/favicon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jane Doe | Frontend Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="A modern portfolio built for accessibility, performance, and responsive design."
+    />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <div class="page-shell">
+      <header class="site-header" role="banner">
+        <div class="brand-panel">
+          <a href="index.html" class="brand-link">Jane Doe</a>
+          <p class="brand-tagline">Frontend Developer & Accessibility Advocate</p>
+        </div>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main-content" class="site-main">
+        <section class="hero" aria-labelledby="hero-heading">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome</p>
+            <h1 id="hero-heading">Hi, I’m Jane Doe.</h1>
+            <p class="hero-text">
+              I build accessible, responsive web experiences using clean HTML5 and CSS3.
+              My work focuses on usability, performance, and beautiful design.
+            </p>
+            <div class="cta-group">
+              <a class="button button-primary" href="projects.html">View Projects</a>
+              <a class="button button-secondary" href="contact.html">Contact Me</a>
+            </div>
+          </div>
+
+          <figure class="hero-visual">
+            <img
+              src="images/profile-placeholder.svg"
+              alt="Illustration of a professional developer"
+              class="profile-image"
+            />
+            <figcaption class="visually-hidden">Profile illustration placeholder</figcaption>
+          </figure>
+        </section>
+
+        <section class="section-intro" aria-labelledby="skills-heading">
+          <h2 id="skills-heading">Skills and Expertise</h2>
+          <p>
+            I specialize in accessible frontend development, semantic structure, and responsive design.
+            These skills help build inclusive experiences for all users.
+          </p>
+
+          <div class="skill-grid">
+            <article class="skill-card">
+              <h3>Accessible UI</h3>
+              <p>WCAG 2.1 compliant interfaces with keyboard support and clear focus states.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Responsive Layouts</h3>
+              <p>Mobile-first design using modern CSS Grid and Flexbox techniques.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Semantic HTML</h3>
+              <p>Meaningful page structure for better SEO, usability, and maintainability.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="featured-projects" aria-labelledby="featured-heading">
+          <div class="section-heading">
+            <h2 id="featured-heading">Featured Projects</h2>
+            <p>Recent projects that demonstrate frontend engineering, accessible design, and API integration.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img
+                src="images/project1-placeholder.svg"
+                alt="Disaster response platform project illustration"
+                class="project-image"
+              />
+              <div class="project-card-body">
+                <h3>Disaster Response Intelligence</h3>
+                <p>
+                  AI-powered disaster prediction and smart evacuation planning interface designed for field responders.
+                </p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, responsive design, accessibility</p>
+                <div class="project-actions">
+                  <a class="button button-tertiary" href="projects.html">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="images/project2-placeholder.svg"
+                alt="Recipe API project illustration"
+                class="project-image"
+              />
+              <div class="project-card-body">
+                <h3>Recipe REST API</h3>
+                <p>
+                  Server-side API for managing recipes, built with Spring Boot and clean RESTful design.
+                </p>
+                <p class="project-tech"><strong>Technologies:</strong> Spring Boot, REST API, JSON, backend integration</p>
+                <div class="project-actions">
+                  <a class="button button-tertiary" href="projects.html">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="images/project3-placeholder.svg"
+                alt="Student dropout prediction project illustration"
+                class="project-image"
+              />
+              <div class="project-card-body">
+                <h3>Student Dropout Prediction</h3>
+                <p>
+                  Machine learning model that identifies students at risk and supports timely academic help.
+                </p>
+                <p class="project-tech"><strong>Technologies:</strong> Python, machine learning, data visualization</p>
+                <div class="project-actions">
+                  <a class="button button-tertiary" href="projects.html">Learn More</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" role="contentinfo">
+        <p>© 2026 Jane Doe. Built with semantic HTML5 and modern CSS.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:hello@example.com">Email</a>
+          <a href="#top">Back to Top</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
