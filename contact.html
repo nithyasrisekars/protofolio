@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Jane Doe Portfolio</title>
+    <meta
+      name="description"
+      content="Get in touch with Jane Doe for frontend development, accessibility consulting, and responsive web design services."
+    />
+    <meta
+      name="keywords"
+      content="contact, frontend developer, accessibility, web development inquiry, email, responsive design"
+    />
+    <meta name="author" content="Jane Doe" />
+    <meta property="og:title" content="Contact | Jane Doe Portfolio" />
+    <meta
+      property="og:description"
+      content="Get in touch with Jane Doe for frontend development, accessibility consulting, and responsive web design services."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/contact.html" />
+    <meta property="og:image" content="images/favicon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact | Jane Doe Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Get in touch with Jane Doe for frontend development, accessibility consulting, and responsive web design services."
+    />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="page-shell">
+      <header class="site-header" role="banner">
+        <div class="brand-panel">
+          <a href="index.html" class="brand-link">Jane Doe</a>
+          <p class="brand-tagline">Frontend Developer & Accessibility Advocate</p>
+        </div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main-content" class="site-main">
+        <section class="page-intro" aria-labelledby="contact-heading">
+          <h1 id="contact-heading">Contact Me</h1>
+          <p>
+            Have a project in mind or want to discuss accessible design? Send a message using the form below.
+          </p>
+        </section>
+
+        <section class="contact-section" aria-label="Contact form and details">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-field">
+              <label for="full-name">Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="name"
+                required
+                aria-required="true"
+                autocomplete="name"
+                placeholder="Your full name"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="email-address">Email</label>
+              <input
+                type="email"
+                id="email-address"
+                name="email"
+                required
+                aria-required="true"
+                autocomplete="email"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                aria-required="true"
+                autocomplete="off"
+                placeholder="Project inquiry, collaboration, etc."
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                aria-required="true"
+                autocomplete="off"
+                placeholder="Tell me more about your project or question."
+              ></textarea>
+            </div>
+
+            <button class="button button-primary" type="submit">Send Message</button>
+          </form>
+
+          <aside class="contact-details" aria-labelledby="details-heading">
+            <h2 id="details-heading">Contact Details</h2>
+            <p>
+              Email: <a href="mailto:hello@example.com">hello@example.com</a>
+            </p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/example</a></p>
+            <p>GitHub: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/example</a></p>
+            <p>Available for freelance and contract work.</p>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer" role="contentinfo">
+        <p>© 2026 Jane Doe. Built with semantic HTML5 and modern CSS.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:hello@example.com">Email</a>
+          <a href="#top">Back to Top</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
